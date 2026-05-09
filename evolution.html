@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evolution | Animation History</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    :root { --primary: #0a2a5e; --accent: #ff6b9d; --yellow: #ffd166; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--primary); color: white; line-height: 1.6; }
+    nav { background: rgba(10, 42, 94, 0.95); position: sticky; top: 0; z-index: 1000; padding: 15px 0; }
+    .nav-container { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+    .logo { font-size: 1.8rem; font-weight: bold; }
+    .nav-links a { color: white; text-decoration: none; margin-left: 25px; font-weight: 500; }
+    .nav-links a:hover { color: var(--accent); }
+    .section { padding: 80px 20px; max-width: 1200px; margin: 0 auto; }
+    h2 { text-align: center; font-size: 2.8rem; margin-bottom: 50px; color: var(--yellow); }
+    .evolution-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; }
+    .card { border-radius: 16px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+    .card img { width: 100%; height: 240px; object-fit: cover; }
+    .card-content { padding: 20px; text-align: center; background: white; color: #0a2a5e; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-container">
+      <div class="logo">🎬 Animation Evolution</div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="evolution.html">Evolution</a>
+        <a href="techniques.html">Techniques</a>
+        <a href="timeline.html">Timeline</a>
+        <a href="modern.html">Modern Era</a>
+        <a href="next-steps.html">Next Steps</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="section">
+    <h2>THE EVOLUTION OF ANIMATION</h2>
+    <div class="evolution-grid">
+      <div class="card">
+        <img src="https://historyofinformation.com/images/Phenakistoscope_3g07690u.jpg" alt="Phenakistoscope">
+        <div class="card-content">
+          <h3>Early Animation</h3>
+          <p>The phenakistoscope was one of the earliest devices for creating animation.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://img.freepik.com/free-vector/hand-drawn-animation-frames-element-collection_23-2149845056.jpg?semt=ais_hybrid&w=740&q=80" alt="Classic">
+        <div class="card-content">
+          <h3>Classic Animation</h3>
+          <p>Hand-drawn animation brought characters to life on the big screen.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://www.shutterstock.com/image-illustration/science-fiction-fantasy-portal-rocky-600nw-2680017175.jpg" alt="Modern">
+        <div class="card-content">
+          <h3>Modern Animation</h3>
+          <p>CGI revolutionized storytelling with its lifelike visuals and immersive worlds.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer style="text-align:center; padding:40px; background:#05172f;">
+    Made with ❤️ for animation lovers | The Evolution of Animation © 2026
+  </footer>
+</body>
+</html>
